@@ -51,7 +51,7 @@ public class Country {
 	public int howManyHaveThisPopulation(int min, int max) {
 		int count = 0;
 		for (Province province : provinces) {
-			if ((province.getPopulationInMillions() > min) && (province.getPopulationInMillions() < max)) {
+			if ((province.getPopulationInMillions() >= min) && (province.getPopulationInMillions() <= max)) {
 				count++;
 			}
 		}

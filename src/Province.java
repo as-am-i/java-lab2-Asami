@@ -15,7 +15,7 @@ public class Province {
 	public static final int DEFAULT_POPULATION_MILLIONS = 4;
 
 	public static final int MAX_POPULATION = 38;
-	public static final int MIN_POPULATION = 4;
+	public static final int MIN_POPULATION = 0;
 
 	/**
 	 * The First Province Constructor
